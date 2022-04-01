@@ -1,0 +1,31 @@
+<?php
+echo '<div style="margin-left : 20px;">';
+echo "<h2>Phalcon Event</h2>";
+
+echo PHP_EOL;
+
+echo $this->tag->linkTo(
+    'product/add',
+    'Add Products'
+);
+echo '<br>';
+echo $this->tag->linkTo(
+    'product',
+    'Products'
+);
+echo '<br>';
+echo $this->tag->linkTo(
+    'order',
+    'Orders'
+);
+echo '<br>';
+echo $this->tag->linkTo(
+    'order/addorder',
+    'Place Order'
+);
+echo '<br>';
+echo $this->tag->linkTo(
+    '/settings',
+    'Settings'
+);
+echo '</div>';
